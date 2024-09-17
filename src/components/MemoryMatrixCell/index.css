@@ -1,0 +1,16 @@
+.highlighted {
+  background-color: blue;
+}
+
+.cell {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.clicked {
+  background-color: red;
+}

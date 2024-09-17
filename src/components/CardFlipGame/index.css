@@ -1,0 +1,213 @@
+.cardflip-play-bg {
+  background-image: url('https://res.cloudinary.com/dv6ikqksk/image/upload/v1710307259/44350_1_ovwpvk.png');
+  background-size: cover;
+  display: flex;
+  width: 1708px;
+  flex-direction: column;
+}
+
+.sm-score-container-1 {
+  visibility: hidden;
+}
+
+.cardflip-back-btn {
+  width: 76px;
+  height: 32px;
+  margin-top: 64px;
+  margin-left: 165px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.cardflip-game-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.timer {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.cardflips-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  height: 32px;
+  width: 928px;
+  background-color: transparent;
+  border-width: 0px;
+  margin-bottom: 2px;
+}
+
+.sub-headings {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.cards-container-bg {
+  list-style-type: none;
+  height: 752px;
+  width: 928px;
+  align-self: center;
+  background-color: #0f5a19;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.memory-game {
+  text-align: center;
+}
+
+.card {
+  height: 160px;
+  width: 160px;
+  background-color: #79ca84;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.card-front {
+  background-color: #79ca84;
+}
+
+.card-back {
+  background-color: transparent;
+  transform: rotateY(180deg);
+}
+
+.matched .card-inner {
+  transform: rotateY(180deg);
+  background-color: #ffffff;
+}
+
+.footprint-img {
+  height: 100px;
+  width: 100px;
+}
+.animal-image {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .cardflip-play-bg {
+    width: 100%;
+    background-size: cover;
+  }
+  .cardflip-back-btn {
+    height: 24px;
+    width: 68px;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  .cardflip-game-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .timer {
+    visibility: hidden;
+  }
+
+  .cardflips-score-container {
+    visibility: hidden;
+  }
+
+  .sm-timer {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .sm-score-container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 312px;
+    height: 40px;
+    visibility: visible;
+    justify-content: space-between;
+    padding: 0px;
+    align-self: center;
+  }
+
+  .sm-sub-headings {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .cards-container-bg {
+    height: 394px;
+    width: 312px;
+  }
+
+  .card {
+    height: 64px;
+    width: 64px;
+    margin: 3px;
+  }
+
+  .animal-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .footprint-img {
+    height: 40px;
+    width: 40px;
+  }
+}

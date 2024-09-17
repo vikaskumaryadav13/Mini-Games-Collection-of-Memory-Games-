@@ -1,0 +1,124 @@
+.MemoryMatrix {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 0 !important;
+  list-style-type: none;
+}
+
+.cell.highlighted {
+  background-color: blue;
+}
+
+.cell.clicked {
+  background-color: red;
+}
+.memory-matrix-bg {
+  background-color: #1a202c;
+  height: 1024px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+.memory-matrix-heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 86.91px;
+  text-align: center;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+.rules-button {
+  width: 76px;
+  height: 32px;
+  margin-left: 165px;
+}
+
+.back-btn {
+  width: 76px;
+  height: 32px;
+  margin-top: 20px;
+  margin-left: 165px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.level-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: bree serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.grid {
+  align-self: center;
+}
+
+.cell {
+  height: 75px;
+  width: 75px;
+  background-color: #cbd5e1;
+  margin: 1px;
+}
+
+.highlighted {
+  background-color: blue;
+}
+
+.clicked {
+  background-color: blue;
+}
+
+.wrong-clicked {
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .memory-matrix-bg {
+    height: 640px;
+    width: 360px;
+  }
+
+  .memory-matrix-heading {
+    font-size: 32px;
+  }
+
+  .back-btn {
+    height: 24px;
+    width: 68px;
+    margin-left: 24px;
+  }
+
+  .rules-button {
+    height: 32px;
+    width: 62px;
+    margin-right: 24px;
+  }
+  .buttons-container {
+    margin-top: 36px;
+  }
+}

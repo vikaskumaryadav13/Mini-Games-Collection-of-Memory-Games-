@@ -1,0 +1,124 @@
+/* index.css */
+
+/* Styles for modal content */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+/* Styles for modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.trigger-button {
+  width: 76px;
+  height: 32px;
+  margin-top: 20px;
+  margin-right: 165px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.container {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  height: 680px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-top: 172px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rules-heading-popup {
+  font-size: 22px;
+  font-family: bree serif;
+  text-align: center;
+}
+
+.cross-icon {
+  width: 24px;
+  height: 24px;
+  top: 252px;
+  left: 1242px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 1200px;
+}
+
+.cardflip-rules-list-popup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+.rule-item-popup {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+  width: 510px;
+  margin: 5px;
+}
+
+.span-item {
+  color: darkgoldenrod;
+}
+
+@media screen and (max-width: 728px) {
+  .rules-list-popup {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin: 3px;
+  }
+
+  .container {
+    height: 564px;
+    width: 312px;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .rules-heading-popup {
+    font-size: 16px;
+    font-family: bree serif;
+    text-align: center;
+  }
+
+  .trigger-button {
+    height: 32px;
+    width: 56px;
+  }
+}

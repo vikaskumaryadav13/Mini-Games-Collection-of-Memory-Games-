@@ -1,0 +1,99 @@
+.progressbar-bg {
+  background-color: #1a202c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progrssbar-emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 720px;
+  margin-bottom: 3px;
+}
+
+.progressbar-emoji {
+  height: 48px;
+  width: 48px;
+}
+
+.levels-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.level-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: bree serif;
+}
+
+.progress-bar {
+  width: 720px;
+}
+
+.filler {
+  background-color: blue;
+  height: 100%;
+}
+
+.congratulations-heading {
+  color: blue;
+  font-size: 42px;
+  font-family: bree serif;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: bree serif;
+}
+
+.play-again-button {
+  height: 48px;
+  width: 117px;
+  background-color: blue;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .progrssbar-emojis-container {
+    width: 311px;
+  }
+
+  .progressbar-emoji {
+    height: 20px;
+    width: 20px;
+  }
+
+  .levels-container {
+    width: 311px;
+  }
+
+  .progress-bar {
+    width: 311px;
+  }
+
+  .level-heading {
+    font-size: 12px;
+  }
+
+  .congratulations-heading {
+    font-size: 24px;
+  }
+
+  .description-heading {
+    font-size: 16px;
+  }
+
+  .play-again-button {
+    height: 32px;
+    width: 91px;
+  }
+}

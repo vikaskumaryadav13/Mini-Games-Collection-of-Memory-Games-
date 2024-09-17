@@ -1,0 +1,12 @@
+.list-item {
+  width: 50%;
+  padding: 30px;
+  height: 150px;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+}

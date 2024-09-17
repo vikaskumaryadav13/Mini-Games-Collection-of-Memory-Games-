@@ -1,0 +1,154 @@
+.emoji-rules-bg {
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+}
+
+.back-button {
+  width: 77px;
+  height: 32px;
+  margin-top: 64px;
+  margin-left: 120px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.emoji-game-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 38px;
+}
+
+.back-btn-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334155;
+}
+
+.rules-container {
+  width: 1201px;
+  height: 776px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 12px;
+  border: 3px #ffffff solid;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image-part {
+  width: 40%;
+  margin-right: 50px;
+}
+.emoji-image {
+  height: 482px;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.rules-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 680px;
+  width: 579px;
+  background-color: transparent;
+}
+
+.rules-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334155;
+}
+
+.rules-list-item {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+
+.start-button {
+  align-self: center;
+  height: 48px;
+  width: 129px;
+  border-radius: 12px;
+  background-color: #334155;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 728px) {
+  .emoji-rules-bg {
+    height: 1097px;
+    width: 360px;
+  }
+
+  .back-button {
+    height: 24px;
+    width: 68px;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+
+  .back-btn-text {
+    font-size: 16px;
+  }
+
+  .rules-container {
+    display: flex;
+    flex-direction: column;
+    height: 969px;
+    width: 312px;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+  }
+  .image-part {
+    width: 100%;
+    margin: 0px;
+  }
+  .emoji-image {
+    height: 213px;
+    width: 255px;
+  }
+
+  .rules-part {
+    width: 100%;
+  }
+
+  .rules-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    line-height: 32px;
+  }
+
+  .rules-list-item {
+    font-size: 16px;
+    padding-right: 15px;
+  }
+
+  .start-button {
+    height: 32px;
+    width: 101px;
+  }
+}

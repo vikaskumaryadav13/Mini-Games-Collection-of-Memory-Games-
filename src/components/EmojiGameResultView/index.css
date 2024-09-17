@@ -1,0 +1,100 @@
+.result-view-bg {
+  height: 1024px;
+  width: 1440px;
+  background: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
+}
+
+.result-view-header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #9796f0;
+  margin-left: 165px;
+}
+
+.logo-part {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo-img {
+  height: 48px;
+  width: 48px;
+}
+
+.emoji-game-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+
+.result-view-container {
+  width: 900px;
+  height: 550.27px;
+  margin-top: 220px;
+  margin-left: 270px;
+  border-radius: 24px;
+  padding: 25px;
+  background-color: #9796f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.result-emojis-image {
+  width: 373.44px;
+  height: 480.27px;
+}
+
+.play-again-button {
+  width: 145px;
+  height: 40px;
+  background-color: goldenrod;
+  color: black;
+}
+
+.game-status {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.best-score {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.score {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #523fff;
+}

@@ -1,0 +1,127 @@
+.rps-home-bg {
+  width: 1440px;
+  height: 1301px;
+  background: #223a5f;
+}
+
+.back-btn {
+  width: 76px;
+  height: 32px;
+  margin-top: 64px;
+  margin-left: 165px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.game-heading {
+  font-family: Bree Serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rps-image {
+  width: 266px;
+  height: 237px;
+  margin-left: 587px;
+  margin-right: 587px;
+}
+
+.rules-heading {
+  font-family: Bree Serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+}
+
+.rules-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+.rule-item {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 150px;
+  width: 538px;
+  height: 64px;
+}
+
+.span-item {
+  color: darkgoldenrod;
+}
+
+.start-btn {
+  width: 132px;
+  height: 48px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .rps-home-bg {
+    width: 360px;
+    height: 1530px;
+  }
+
+  .game-heading {
+    font-family: Bree Serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .rps-image {
+    width: 227px;
+    height: 202px;
+    margin-left: 66px;
+    margin-right: 66px;
+  }
+
+  .rules-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .rules-list {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+  }
+
+  .rule-item {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .start-btn {
+    height: 32px;
+    width: 104px;
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+}

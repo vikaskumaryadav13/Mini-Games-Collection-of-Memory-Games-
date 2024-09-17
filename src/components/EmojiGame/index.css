@@ -1,0 +1,131 @@
+.bg-conatiner {
+  height: 1024px;
+  width: 1440px;
+  background: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9796f0;
+}
+
+.logo-part {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.logo-img {
+  height: 48px;
+  width: 48px;
+}
+
+.emoji-game-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+
+.emoji-scores-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.emoji-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+.emoji-back-button {
+  width: 76px;
+  height: 32px;
+  margin-top: 20px;
+  margin-left: 165px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  border-width: 0px;
+}
+
+.emojis-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 145px;
+  margin-right: 145px;
+  height: 656px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-conatiner {
+    height: 640px;
+    width: 360px;
+  }
+  .header {
+    height: 56px;
+  }
+  .logo-part {
+    height: 24px;
+  }
+  .logo-img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .emoji-game-heading {
+    font-size: 16px;
+  }
+
+  .score-heading {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .emoji-buttons-container {
+    height: 32px;
+    margin-top: 28px;
+  }
+
+  .emoji-back-button {
+    width: 68px;
+    height: 24px;
+    margin-left: 24px;
+    gap: 8px;
+  }
+
+  .emojis-list {
+    height: 414px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 0px;
+  }
+}

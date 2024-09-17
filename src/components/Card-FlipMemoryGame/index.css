@@ -1,0 +1,109 @@
+.cardflip-home-bg {
+  background-color: #14332e;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardflip-back-btn {
+  width: 76px;
+  height: 32px;
+  margin-top: 64px;
+  margin-left: 165px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.cardflip-image {
+  width: 807px;
+  height: 462px;
+  margin-left: 317px;
+  margin-right: 317px;
+}
+
+.rules-heading {
+  font-family: Bree Serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+}
+
+.cardflip-rules-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+.rule-item {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 125px;
+  width: 500px;
+  height: 96px;
+}
+
+.start-btn {
+  width: 132px;
+  height: 48px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .cardflip-back-btn {
+    height: 24px;
+    width: 68px;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  .cardflip-image {
+    width: 100%;
+    height: 178px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .rules-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 0px;
+    align-self: center;
+  }
+
+  .cardflip-rules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rule-item {
+    font-size: 16px;
+    width: 80%;
+    line-height: 24px;
+    margin: 0px;
+  }
+
+  .start-btn {
+    height: 32px;
+    width: 104px;
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+}

@@ -1,0 +1,79 @@
+.cardflip-result-view-bg {
+  background-color: #14332e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resEmojiImg {
+  height: 180px;
+  width: 180px;
+  margin: 0px;
+}
+
+.wishes-text {
+  font-family: Bree Serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4ade80;
+  margin: 0px;
+}
+
+.flips {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.desc {
+  font-family: Bree Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.play-again-btn {
+  height: 48px;
+  width: 117px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .resEmojiImg {
+    height: 80px;
+    width: 80px;
+  }
+
+  .wishes-text {
+    font-size: 24px;
+  }
+
+  .flips {
+    font-size: 12px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .play-again-btn {
+    height: 32px;
+    width: 91px;
+  }
+}

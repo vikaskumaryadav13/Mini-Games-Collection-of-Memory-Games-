@@ -1,0 +1,89 @@
+.bg-container {
+  height: 1024px;
+  width: 1440px;
+  background-image: linear-gradient(#834d9b, #d04ed6);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  top: 96px;
+  left: 644px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f8fafc;
+}
+.games-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 80px 150px;
+}
+.game-card {
+  width: 540px;
+  height: 280px;
+  margin: 3px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-game-image {
+  width: 224px;
+  height: 232px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.game-name {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334155;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    width: 360px;
+    height: 918px;
+  }
+
+  .games-list-container {
+    display: flex;
+    flex-direction: column;
+    margin: 118px 24px;
+  }
+
+  .main-heading {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .game-name {
+    font-family: Bree Serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #334155;
+  }
+
+  .game-card {
+    width: 312px;
+    height: 176px;
+  }
+}

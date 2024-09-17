@@ -1,0 +1,31 @@
+.emoji-card {
+  width: 255px;
+  height: 212px;
+  margin: 10px;
+  border-radius: 24px;
+  border: 3px #ffffff solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-card-image {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .emoji-card {
+    height: 96px;
+    width: 96px;
+    margin: 2px;
+    border-radius: 12px;
+    border-width: 1px;
+  }
+
+  .emoji-card-image {
+    height: 40px;
+    width: 40px;
+  }
+}
